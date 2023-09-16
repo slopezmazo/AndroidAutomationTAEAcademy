@@ -16,56 +16,34 @@ import com.globant.util.screens.BaseScreen;
  *
  */
 public class LoginScreen extends BaseScreen {
-
-	/**
-	 * Constructor method.
-	 *
-	 * @author Hans.Marquez
-	 * @param driver the driver
-	 */
 	public LoginScreen(AndroidDriver<AndroidElement> driver) {
 		super(driver);
 	}
 
-	
-	/** The sign in button. */
-	@HowToUseLocators(androidAutomation = ALL_POSSIBLE)
-    @AndroidFindBy(uiAutomator = "new UiSelector().resourceIdMatches(\".*:id/btn_login\")")
-	@AndroidFindBy(uiAutomator = "new UiSelector().className(\"android.widget.Button\").textContains(\"Sign\")")
-    private AndroidElement signInButton;
-	
-	/** The user text box. */
-	@HowToUseLocators(androidAutomation = ALL_POSSIBLE)
-    @AndroidFindBy(uiAutomator = "new UiSelector().resourceIdMatches(\".*:id/email_id\")")
-    private AndroidElement userTextBox;
-	
-	/** The password text box. */
-	@HowToUseLocators(androidAutomation = ALL_POSSIBLE)
-    @AndroidFindBy(uiAutomator = "new UiSelector().resourceIdMatches(\".*:id/password_id\")")
-    private AndroidElement passwordTextBox;
-	
-	
+	@AndroidFindBy(xpath = "//android.widget.ScrollView[@content-desc=\"Login-screen\"]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.TextView")
+    private AndroidElement loginTitle;
+	@AndroidFindBy(accessibility = "input-email")
+    private AndroidElement loginMailInput;
+	@AndroidFindBy(accessibility = "input-password")
+    private AndroidElement loginPasswordInput;
+	@AndroidFindBy(accessibility = "input-repeat-password")
+    private AndroidElement loginRepeatPasswordInput;
+	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"button-LOGIN\"]/android.view.ViewGroup")
+    private AndroidElement loginButton;
+	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"button-SIGN UP\"]/android.view.ViewGroup")
+    private AndroidElement signUpButton;
 
-	/**
-	 * Fill in login data.
-	 *
-	 * @param user     :String
-	 * @param password :String
-	 */
-	public void fillInLoginData(String user, String password) {
-		sendKeys(userTextBox, user);
-		sendKeys(passwordTextBox, password);
-		click(signInButton);
+
+	public void fillInLoginData(String mail, String password) {
+		sendKeys(loginMailInput, mail);
+		sendKeys(loginPasswordInput, password);
+		click(loginButton);
 	}
-
-
-	/**
-	 * Alert control.
-	 */
-	@Override
-	public void alertControl() {
-		// TODO Auto-generated method stub
-		
+	public void fillInSignUpData(String mail, String password,String repeatPassword) {
+		sendKeys(loginMailInput, mail);
+		sendKeys(loginPasswordInput, password);
+		sendKeys(loginRepeatPasswordInput, repeatPassword);
+		click(signUpButton);
 	}
 
 }
