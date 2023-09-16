@@ -13,8 +13,8 @@
 				<exclude name="some group"></exclude>
 			</run>
 		</groups>
-		<classes>
-			<class name="pathOfTheTest"></class>
-		</classes>
+<!--		<classes>-->
+<!--			<class name="pathOfTheTest"></class>-->
+<!--		</classes>-->
 	</test>
 </suite> 
