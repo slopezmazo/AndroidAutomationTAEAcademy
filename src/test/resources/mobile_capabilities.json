@@ -1,10 +1,9 @@
 {
-	"deviceName": "Pixel 7 Pro API 33",
-	"udid": "emulator-5554",
 	"platformName": "Android",
-	"platformVersion": "13",
-	"appPackage": "com.disney.wdpro.dlr",
-	"appActivity": "com.disney.wdpro.park.activities.LoaderActivity",
-	"app": "/Users/david.rd/Downloads/Disneyland.apk",
-	"automationName": "UiAutomator2"
+	"appium:automationName": "UiAutomator2",
+	"appium:app": "C:\\Users\\s.lopezmazo\\Documents\\learning\\TAE-academy\\mobile automations\\Final practice\\Android-NativeDemoApp-0.4.0.apk",
+	"appium:deviceName": "SebasPhone",
+	"appium:platformVersion": "14",
+	"appium:appActivity": "com.wdiodemoapp.MainActivity",
+	"appium:appPackage": "com.wdiodemoapp"
 }

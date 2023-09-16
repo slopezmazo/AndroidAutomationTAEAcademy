@@ -1,4 +1,4 @@
-package screens;
+package com.globant.screens;
 
 public interface AlertHandler {
 	

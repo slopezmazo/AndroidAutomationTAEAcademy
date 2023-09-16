@@ -1,4 +1,4 @@
-package screens;
+package com.globant.screens;
 
 import static io.appium.java_client.pagefactory.LocatorGroupStrategy.ALL_POSSIBLE;
 
@@ -6,7 +6,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.HowToUseLocators;
-import util.screens.BaseScreen;
+import com.globant.util.screens.BaseScreen;
 
 // TODO: Auto-generated Javadoc
 /**
