@@ -37,9 +37,9 @@ public class LoginScreen extends BaseScreen {
 	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"button-SIGN UP\"]/android.view.ViewGroup")
     private AndroidElement loginSignUpButton;
 	@AndroidFindBy(id = "android:id/message")
-	private AndroidElement signUpPopUpMessage;
+	private AndroidElement popUpMessage;
 	@AndroidFindBy(id = "android:id/button1")
-	private AndroidElement signUpPopUpOkButton;
+	private AndroidElement popUpOkButton;
 
 
 	public void fillInLoginData(String mail, String password) {
@@ -57,13 +57,16 @@ public class LoginScreen extends BaseScreen {
 		return loginTitle.getText();
 	}
 
+	public void clickLoginOption(){
+		click(loginOption);
+	}
 	public void clickSingUpOption(){
 		click(signUpOption);
 	}
-	public String getSignUpPopUpMessage(){
-		return signUpPopUpMessage.getText();
+	public String getPopUpMessage(){
+		return popUpMessage.getText();
 	}
-	public void clickSignUpPopUpButton(){
-		click(signUpPopUpOkButton);
+	public void clickPopUpButton(){
+		click(popUpOkButton);
 	}
 }

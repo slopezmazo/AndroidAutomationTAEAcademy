@@ -63,3 +63,16 @@
 14:35:25.244 [main] INFO  com.globant.Reporter - filling in sign up data
 14:35:32.473 [main] INFO  com.globant.Reporter - Successful sign Up
 14:35:32.662 [main] INFO  com.globant.Reporter - End of test...
+17:02:33.248 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+17:02:33.547 [main] INFO  com.globant.Reporter - Redirecting to login screen
+17:02:34.718 [main] INFO  com.globant.Reporter - login screen loaded successfully
+17:02:35.436 [main] INFO  com.globant.Reporter - filling in sign up data
+17:02:42.349 [main] INFO  com.globant.Reporter - Successful sign Up
+17:08:57.246 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+17:08:57.565 [main] INFO  com.globant.Reporter - Redirecting to login screen
+17:08:58.848 [main] INFO  com.globant.Reporter - login screen loaded successfully
+17:08:59.473 [main] INFO  com.globant.Reporter - filling in sign up data
+17:09:06.513 [main] INFO  com.globant.Reporter - Successful sign Up
+17:09:11.791 [main] INFO  com.globant.Reporter - filling in login data
+17:09:14.318 [main] INFO  com.globant.Reporter - Successful login Up
+17:09:14.544 [main] INFO  com.globant.Reporter - End of test...
