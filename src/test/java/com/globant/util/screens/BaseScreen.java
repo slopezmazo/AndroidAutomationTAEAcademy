@@ -33,7 +33,7 @@ public abstract class BaseScreen extends Reporter{
 	protected AndroidElement webviewButton;
 	@AndroidFindBy(accessibility = "Login")
 	protected AndroidElement loginButton;
-	@AndroidFindBy(accessibility = "Home")
+	@AndroidFindBy(accessibility = "Forms")
 	protected AndroidElement formsButton;
 	@AndroidFindBy(accessibility = "Swipe")
 	protected AndroidElement swipeButton;
@@ -114,6 +114,32 @@ public abstract class BaseScreen extends Reporter{
 		WebDriverWait wait = new WebDriverWait(driver,15);
 		wait.until(ExpectedConditions.visibilityOf(element));
 		return true;
+	}
+
+	public void clickBottomMenuOption(String button){
+		switch (button){
+			case "home":
+				click(homeButton);
+				break;
+			case "webview":
+				click(webviewButton);
+				break;
+			case "login":
+				click(loginButton);
+				break;
+			case "forms":
+				click(formsButton);
+				break;
+			case "swipe":
+				click(swipeButton);
+				break;
+			case "drag":
+				click(dragButton);
+				break;
+			default:
+				logWarning("ïnvalid bottom menu option");
+		}
+
 	}
 	
 }
