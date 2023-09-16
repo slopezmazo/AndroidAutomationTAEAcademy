@@ -11,9 +11,14 @@
 <!--			<class name="com.globant.tests.BottomMenuNavigationTest"/>-->
 <!--		</classes>-->
 <!--	</test>-->
-	<test name="Sign Up Test">
+<!--	<test name="Sign Up Test">-->
+<!--		<classes>-->
+<!--			<class name="com.globant.tests.SignUpTest"/>-->
+<!--		</classes>-->
+<!--	</test>-->
+	<test name="Login Test">
 		<classes>
-			<class name="com.globant.tests.SignUpTest"/>
+			<class name="com.globant.tests.LoginTest"/>
 		</classes>
 	</test>
 </suite> 

@@ -6,13 +6,14 @@ import com.globant.util.SignUpDataGenerator;
 import com.globant.util.tests.BaseMobileTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-public class SignUpTest extends BaseMobileTest {
 
+public class LoginTest extends BaseMobileTest {
     @Test
-    public void SignUpTest(){
-        String  HOMESCREEN_TITLE = "WEBDRIVER";
-        String  LOGINSCREEN_TITLE = "Login / Sign up Form";
-        String  SIGNUP_SUCCESS_MESSAGE = "You successfully signed up!";
+    public void LoginTest(){
+        String HOMESCREEN_TITLE = "WEBDRIVER";
+        String LOGINSCREEN_TITLE = "Login / Sign up Form";
+        String SIGNUP_SUCCESS_MESSAGE = "You successfully signed up!";
+        String LOGIN_SUCCESS_MESSAGE = "You are logged in!";
         String email = SignUpDataGenerator.getEmail();
         String password = SignUpDataGenerator.getPassword();
 
@@ -35,10 +36,17 @@ public class SignUpTest extends BaseMobileTest {
         loginScreen.fillInSignUpData(email,password,password);
         Assert.assertEquals(loginScreen.getPopUpMessage(),SIGNUP_SUCCESS_MESSAGE);
         logInfo("Successful sign Up");
+        loginScreen.clickPopUpButton();
+        loginScreen.clickLoginOption();
 
-        //End of testing
+        // login filling data
+        loginScreen.fillInLoginData(email,password);
+        logInfo("filling in login data");
+        Assert.assertEquals(loginScreen.getPopUpMessage(),LOGIN_SUCCESS_MESSAGE);
+        logInfo("Successful login Up");
+
+        //End of test
         loginScreen.clickPopUpButton();
         logInfo("End of test...");
     }
 }
-
