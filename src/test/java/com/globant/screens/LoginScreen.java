@@ -29,21 +29,24 @@ public class LoginScreen extends BaseScreen {
 	@AndroidFindBy(accessibility = "input-repeat-password")
     private AndroidElement loginRepeatPasswordInput;
 	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"button-LOGIN\"]/android.view.ViewGroup")
-    private AndroidElement loginButton;
+    private AndroidElement loginLoginButton;
 	@AndroidFindBy(xpath = "//android.view.ViewGroup[@content-desc=\"button-SIGN UP\"]/android.view.ViewGroup")
-    private AndroidElement signUpButton;
+    private AndroidElement loginSignUpButton;
 
 
 	public void fillInLoginData(String mail, String password) {
 		sendKeys(loginMailInput, mail);
 		sendKeys(loginPasswordInput, password);
-		click(loginButton);
+		click(loginLoginButton);
 	}
 	public void fillInSignUpData(String mail, String password,String repeatPassword) {
 		sendKeys(loginMailInput, mail);
 		sendKeys(loginPasswordInput, password);
 		sendKeys(loginRepeatPasswordInput, repeatPassword);
-		click(signUpButton);
+		click(loginSignUpButton);
+	}
+	public String getLoginTitle(){
+		return loginTitle.getText();
 	}
 
 }
