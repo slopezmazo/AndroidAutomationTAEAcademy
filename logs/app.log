@@ -76,3 +76,224 @@
 17:09:11.791 [main] INFO  com.globant.Reporter - filling in login data
 17:09:14.318 [main] INFO  com.globant.Reporter - Successful login Up
 17:09:14.544 [main] INFO  com.globant.Reporter - End of test...
+17:50:46.807 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+17:50:47.108 [main] INFO  com.globant.Reporter - Redirecting to login screen
+17:50:48.255 [main] INFO  com.globant.Reporter - login screen loaded successfully
+17:50:48.931 [main] INFO  com.globant.Reporter - filling in sign up data
+17:50:56.990 [main] INFO  com.globant.Reporter - Successful sign Up
+17:51:01.889 [main] INFO  com.globant.Reporter - filling in login data
+17:51:04.396 [main] INFO  com.globant.Reporter - Successful login Up
+17:51:04.631 [main] INFO  com.globant.Reporter - End of test...
+17:51:28.946 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+17:51:29.221 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+17:52:48.704 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+17:52:49.010 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+17:53:38.036 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+17:53:38.406 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+17:54:13.725 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+17:54:14.057 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+17:55:15.884 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+17:55:16.229 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:17:53.154 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:17:53.492 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:18:40.170 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:18:40.593 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:21:27.180 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:21:27.452 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:23:37.777 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:23:38.044 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:28:17.335 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:28:17.608 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:32:25.802 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:32:26.211 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:35:00.506 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:35:00.865 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:53:39.102 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:53:39.408 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:53:41.557 [main] INFO  com.globant.Reporter - login screen swipe successfully
+18:53:48.189 [main] INFO  com.globant.Reporter - Right swipe successful performed
+18:54:27.567 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:54:28.206 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:54:30.787 [main] INFO  com.globant.Reporter - login screen swipe successfully
+18:54:41.291 [main] INFO  com.globant.Reporter - Right swipe successful performed
+18:58:43.373 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+18:58:43.745 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+18:58:46.208 [main] INFO  com.globant.Reporter - login screen swipe successfully
+18:58:55.537 [main] INFO  com.globant.Reporter - Right swipe successful performed
+19:00:19.823 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:00:20.423 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:00:22.783 [main] INFO  com.globant.Reporter - login screen swipe successfully
+19:00:31.338 [main] INFO  com.globant.Reporter - Right swipe successful performed
+19:00:39.751 [main] INFO  com.globant.Reporter - Left swipe successful performed
+19:02:04.417 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:02:04.727 [main] INFO  com.globant.Reporter - Redirecting to webview screen
+19:02:12.953 [main] INFO  com.globant.Reporter - webview screen loaded successfully
+19:02:15.216 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:02:17.599 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:02:18.244 [main] INFO  com.globant.Reporter - Redirecting to forms screen
+19:02:19.654 [main] INFO  com.globant.Reporter - forms screen loaded successfully
+19:02:20.073 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:02:22.583 [main] INFO  com.globant.Reporter - swipe screen loaded successfully
+19:02:22.938 [main] INFO  com.globant.Reporter - Redirecting to drag screen
+19:02:23.664 [main] INFO  com.globant.Reporter - drag screen loaded successfully
+19:02:24.058 [main] INFO  com.globant.Reporter - End of testing
+19:02:40.520 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:02:40.819 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:02:42.166 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:02:42.788 [main] INFO  com.globant.Reporter - filling in sign up data
+19:02:49.825 [main] INFO  com.globant.Reporter - Successful sign Up
+19:02:50.043 [main] INFO  com.globant.Reporter - End of test...
+19:03:06.366 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:03:06.643 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:03:07.815 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:03:08.507 [main] INFO  com.globant.Reporter - filling in sign up data
+19:03:15.976 [main] INFO  com.globant.Reporter - Successful sign Up
+19:03:21.269 [main] INFO  com.globant.Reporter - filling in login data
+19:03:23.794 [main] INFO  com.globant.Reporter - Successful login Up
+19:03:24.009 [main] INFO  com.globant.Reporter - End of test...
+19:03:40.509 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:03:41.148 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:03:43.646 [main] INFO  com.globant.Reporter - Swipe screen loaded successfully
+19:05:48.248 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:05:48.584 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:05:50.964 [main] INFO  com.globant.Reporter - Swipe screen loaded successfully
+19:05:58.748 [main] INFO  com.globant.Reporter - Right swipe successful performed
+19:06:05.237 [main] INFO  com.globant.Reporter - Left swipe successful performed
+19:06:05.237 [main] INFO  com.globant.Reporter - End of test
+19:06:58.277 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:06:58.725 [main] INFO  com.globant.Reporter - Redirecting to webview screen
+19:07:22.207 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:07:22.496 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:07:23.580 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:07:24.110 [main] INFO  com.globant.Reporter - filling in sign up data
+19:07:31.388 [main] INFO  com.globant.Reporter - Successful sign Up
+19:07:31.561 [main] INFO  com.globant.Reporter - End of test...
+19:07:45.094 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:07:45.349 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:07:46.540 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:07:47.117 [main] INFO  com.globant.Reporter - filling in sign up data
+19:07:53.894 [main] INFO  com.globant.Reporter - Successful sign Up
+19:07:57.829 [main] INFO  com.globant.Reporter - filling in login data
+19:08:00.409 [main] INFO  com.globant.Reporter - Successful login Up
+19:08:00.627 [main] INFO  com.globant.Reporter - End of test...
+19:08:15.211 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:08:15.468 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:08:17.754 [main] INFO  com.globant.Reporter - Swipe screen loaded successfully
+19:08:24.710 [main] INFO  com.globant.Reporter - Right swipe successful performed
+19:08:31.058 [main] INFO  com.globant.Reporter - Left swipe successful performed
+19:08:31.058 [main] INFO  com.globant.Reporter - End of test
+19:08:52.293 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:08:52.649 [main] INFO  com.globant.Reporter - Redirecting to webview screen
+19:08:57.403 [main] INFO  com.globant.Reporter - webview screen loaded successfully
+19:09:00.224 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:09:27.645 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:09:27.942 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:09:28.855 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:09:29.326 [main] INFO  com.globant.Reporter - filling in sign up data
+19:10:02.765 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:10:03.234 [main] INFO  com.globant.Reporter - Redirecting to webview screen
+19:10:09.420 [main] INFO  com.globant.Reporter - webview screen loaded successfully
+19:10:11.484 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:10:13.472 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:10:13.867 [main] INFO  com.globant.Reporter - Redirecting to forms screen
+19:10:15.102 [main] INFO  com.globant.Reporter - forms screen loaded successfully
+19:10:15.478 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:10:17.792 [main] INFO  com.globant.Reporter - swipe screen loaded successfully
+19:10:18.120 [main] INFO  com.globant.Reporter - Redirecting to drag screen
+19:10:18.787 [main] INFO  com.globant.Reporter - drag screen loaded successfully
+19:10:18.787 [main] INFO  com.globant.Reporter - End of testing
+19:11:12.319 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:11:12.692 [main] INFO  com.globant.Reporter - Redirecting to webview screen
+19:11:18.570 [main] INFO  com.globant.Reporter - webview screen loaded successfully
+19:11:48.838 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:11:49.131 [main] INFO  com.globant.Reporter - Redirecting to webview screen
+19:11:52.700 [main] INFO  com.globant.Reporter - webview screen loaded successfully
+19:11:54.398 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:11:56.465 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:11:57.192 [main] INFO  com.globant.Reporter - Redirecting to forms screen
+19:11:58.632 [main] INFO  com.globant.Reporter - forms screen loaded successfully
+19:11:59.321 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:12:01.738 [main] INFO  com.globant.Reporter - swipe screen loaded successfully
+19:12:02.097 [main] INFO  com.globant.Reporter - Redirecting to drag screen
+19:12:02.788 [main] INFO  com.globant.Reporter - drag screen loaded successfully
+19:12:02.788 [main] INFO  com.globant.Reporter - End of testing
+19:12:18.505 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:12:18.793 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:12:20.426 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:12:21.246 [main] INFO  com.globant.Reporter - filling in sign up data
+19:12:28.606 [main] INFO  com.globant.Reporter - Successful sign Up
+19:12:28.839 [main] INFO  com.globant.Reporter - End of test...
+19:12:44.514 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:12:44.815 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:12:45.931 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:12:46.598 [main] INFO  com.globant.Reporter - filling in sign up data
+19:12:53.899 [main] INFO  com.globant.Reporter - Successful sign Up
+19:12:59.237 [main] INFO  com.globant.Reporter - filling in login data
+19:13:01.751 [main] INFO  com.globant.Reporter - Successful login Up
+19:13:01.990 [main] INFO  com.globant.Reporter - End of test...
+19:13:17.234 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:13:17.577 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:13:20.057 [main] INFO  com.globant.Reporter - Swipe screen loaded successfully
+19:13:28.588 [main] INFO  com.globant.Reporter - Right swipe successful performed
+19:14:58.853 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:14:59.205 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:15:01.530 [main] INFO  com.globant.Reporter - Swipe screen loaded successfully
+19:15:09.355 [main] INFO  com.globant.Reporter - Right swipe successful performed
+19:15:16.565 [main] INFO  com.globant.Reporter - Left swipe successful performed
+19:15:16.565 [main] INFO  com.globant.Reporter - End of test
+19:15:55.679 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:15:56.030 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:15:57.313 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:15:58.038 [main] INFO  com.globant.Reporter - filling in sign up data
+19:16:05.044 [main] INFO  com.globant.Reporter - Successful sign Up
+19:16:09.265 [main] INFO  com.globant.Reporter - filling in login data
+19:16:11.866 [main] INFO  com.globant.Reporter - Successful login Up
+19:16:12.134 [main] INFO  com.globant.Reporter - End of test...
+19:16:27.933 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:16:28.266 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:16:30.670 [main] INFO  com.globant.Reporter - Swipe screen loaded successfully
+19:16:39.056 [main] INFO  com.globant.Reporter - Right swipe successful performed
+19:16:46.742 [main] INFO  com.globant.Reporter - Left swipe successful performed
+19:16:46.742 [main] INFO  com.globant.Reporter - End of test
+19:17:23.085 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:17:23.462 [main] INFO  com.globant.Reporter - Redirecting to webview screen
+19:17:28.917 [main] INFO  com.globant.Reporter - webview screen loaded successfully
+19:17:31.181 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:17:32.924 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:17:33.543 [main] INFO  com.globant.Reporter - Redirecting to forms screen
+19:17:34.967 [main] INFO  com.globant.Reporter - forms screen loaded successfully
+19:17:35.300 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:17:37.789 [main] INFO  com.globant.Reporter - swipe screen loaded successfully
+19:17:38.252 [main] INFO  com.globant.Reporter - Redirecting to drag screen
+19:18:12.938 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:18:13.317 [main] INFO  com.globant.Reporter - Redirecting to webview screen
+19:18:19.035 [main] INFO  com.globant.Reporter - webview screen loaded successfully
+19:18:20.713 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:18:22.719 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:18:23.376 [main] INFO  com.globant.Reporter - Redirecting to forms screen
+19:18:24.966 [main] INFO  com.globant.Reporter - forms screen loaded successfully
+19:18:25.517 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:18:27.831 [main] INFO  com.globant.Reporter - swipe screen loaded successfully
+19:18:28.246 [main] INFO  com.globant.Reporter - Redirecting to drag screen
+19:18:29.463 [main] INFO  com.globant.Reporter - drag screen loaded successfully
+19:18:29.464 [main] INFO  com.globant.Reporter - End of testing
+19:18:44.821 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:18:45.145 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:18:46.338 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:18:47.054 [main] INFO  com.globant.Reporter - filling in sign up data
+19:18:53.914 [main] INFO  com.globant.Reporter - Successful sign Up
+19:18:54.173 [main] INFO  com.globant.Reporter - End of test...
+19:19:10.034 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:19:10.340 [main] INFO  com.globant.Reporter - Redirecting to login screen
+19:19:11.491 [main] INFO  com.globant.Reporter - login screen loaded successfully
+19:19:12.231 [main] INFO  com.globant.Reporter - filling in sign up data
+19:19:19.275 [main] INFO  com.globant.Reporter - Successful sign Up
+19:19:24.276 [main] INFO  com.globant.Reporter - filling in login data
+19:19:26.753 [main] INFO  com.globant.Reporter - Successful login Up
+19:19:27.052 [main] INFO  com.globant.Reporter - End of test...
+19:19:41.887 [main] INFO  com.globant.Reporter - Home screen instantiated correctly
+19:19:42.233 [main] INFO  com.globant.Reporter - Redirecting to swipe screen
+19:19:44.663 [main] INFO  com.globant.Reporter - Swipe screen loaded successfully
+19:19:52.561 [main] INFO  com.globant.Reporter - Right swipe successful performed
+19:19:59.895 [main] INFO  com.globant.Reporter - Left swipe successful performed
+19:19:59.895 [main] INFO  com.globant.Reporter - End of test

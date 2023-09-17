@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="My suite">
-	<!-- some parameter -->
-	<parameter name="name" value="value"></parameter>
-	<!-- some parameter -->
-	<parameter name="name" value="value"></parameter>
-
-<!--	<test name="Bottom Menu Navegation Test">-->
-<!--		<classes>-->
-<!--			<class name="com.globant.tests.BottomMenuNavigationTest"/>-->
-<!--		</classes>-->
-<!--	</test>-->
-<!--	<test name="Sign Up Test">-->
-<!--		<classes>-->
-<!--			<class name="com.globant.tests.SignUpTest"/>-->
-<!--		</classes>-->
-<!--	</test>-->
+	<test name="Bottom Menu Navegation Test">
+		<classes>
+			<class name="com.globant.tests.BottomMenuNavigationTest"/>
+		</classes>
+	</test>
+	<test name="Sign Up Test">
+		<classes>
+			<class name="com.globant.tests.SignUpTest"/>
+		</classes>
+	</test>
 	<test name="Login Test">
 		<classes>
 			<class name="com.globant.tests.LoginTest"/>
+		</classes>
+	</test>
+	<test name="Swipe Card Test">
+		<classes>
+			<class name="com.globant.tests.SwipeCardTest"/>
 		</classes>
 	</test>
 </suite> 

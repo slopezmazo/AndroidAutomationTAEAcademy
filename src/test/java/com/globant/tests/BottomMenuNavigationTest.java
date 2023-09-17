@@ -39,7 +39,6 @@ public class BottomMenuNavigationTest extends BaseMobileTest {
 
         //forms screen accessing
         FormsScreen forms = new FormsScreen(driver);
-        System.out.println("Forms screen created succesfully");
         Assert.assertEquals(forms.getFormsTitle(),FORMSSCREEN_TITLE);
         logInfo("forms screen loaded successfully");
         webview.clickBottomMenuOption("swipe");
@@ -56,7 +55,6 @@ public class BottomMenuNavigationTest extends BaseMobileTest {
         DragScreen drag = new DragScreen(driver);
         Assert.assertEquals(drag.getDragTitle(),DRAGSCREEN_TITLE);
         logInfo("drag screen loaded successfully");
-        webview.clickBottomMenuOption("swipe");
         logInfo("End of testing");
     }
 }
