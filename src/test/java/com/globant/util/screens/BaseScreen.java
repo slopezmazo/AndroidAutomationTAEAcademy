@@ -7,10 +7,9 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
-import com.globant.screens.AlertHandler;
-
-import static java.lang.String.format;
+import io.appium.java_client.touch.offset.ElementOption;
 
 import java.time.Duration;
 
@@ -44,52 +43,16 @@ public abstract class BaseScreen extends Reporter{
 		this.driver = driver;
 		PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(15)), this);
 	}
+	public void swipeHorizontal(AndroidElement element, int x, int y) {
+		TouchAction touchAction = new TouchAction(driver);
+		PointOption swipe = new PointOption();
+		swipe.withCoordinates(x,0);
 
-	/**
-	 * Tab on back button.
-	 * 
-	 * @author Arley.Bolivar
-	 */
-	public void tapBack() {
-		// driver.pressKeyCode(AndroidKeyCode.BACK);
-		driver.navigate()
-		.back();
-	}
-
-	public void scrollDown(int swipes) {
-		String locator = "new UiScrollable(new UiSelector().resourceIdMatches(\".*ontainer.*\")).flingToEnd(1)";
-		scroll(locator, swipes);
-	}
-
-	public void scrollUp(int swipes) {
-		String locator = "new UiScrollable(new UiSelector().resourceIdMatches(\".*ontainer.*\")).flingToBeginning(1)";
-		scroll(locator, swipes);
-	}
-
-	public void scroll(String locator, int swipes) {
-		int swipesAmount = 0;
-		while (swipesAmount < swipes) {
-			try {
-				driver.findElementByAndroidUIAutomator(locator);
-				swipesAmount++;
-			} catch (Exception e) {
-				swipesAmount++;
-			}
-		}
-	}
-
-	@SuppressWarnings({ "rawtypes", "unused" })
-	public void swipeVertical (float percentage) {
-		Dimension windowSize = driver.manage().window().getSize();
-		TouchAction ta = new TouchAction(driver);
-		ta.press(PointOption.point(207, 582)).moveTo(PointOption.point(8, 
-				-360)).release().perform();
-	}
-
-	public void scrollToText(String text) {
-		String automator = "new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().textContains(\"%s\"))";
-		AndroidElement textOnElement = driver.findElementByAndroidUIAutomator(format(automator, text));
-		logInfo(textOnElement.getText());
+		touchAction.press(ElementOption.element(element))
+				.waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
+				.moveTo(swipe)
+				.release()
+				.perform();
 	}
 
 	public void click(AndroidElement element, int timeout) {
@@ -108,12 +71,6 @@ public abstract class BaseScreen extends Reporter{
 		WebDriverWait wait = new WebDriverWait(driver,15);
 		wait.until(ExpectedConditions.visibilityOf(element));
 		element.sendKeys(sequence);
-	}
-
-	public boolean isElementAvailable(AndroidElement element) {
-		WebDriverWait wait = new WebDriverWait(driver,15);
-		wait.until(ExpectedConditions.visibilityOf(element));
-		return true;
 	}
 
 	public void clickBottomMenuOption(String button){

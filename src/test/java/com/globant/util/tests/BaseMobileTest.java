@@ -32,7 +32,7 @@ public class BaseMobileTest extends Reporter {
 
 	@AfterMethod(alwaysRun = true)
 	public void mobileApplicationEnd() {
-		// driver.quit();
+		 driver.quit();
 	}
 	public AndroidDriver<AndroidElement> getDriver() {
 		return driver;
